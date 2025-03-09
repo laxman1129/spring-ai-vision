@@ -9,10 +9,11 @@ ollama run hf.co/bartowski/ibm-granite_granite-vision-3.2-2b-GGUF
 
 
 ## Observations 
-- `minicpm` model is comparatively best for vision tasks
-- `llava` model is better at reading number plates compared to minicpm
+- `minicpm` model is comparatively faster and accurate for vision tasks
+- `llava` good at describing images rather than OCR
 - `granite-vision` model is very basic
 - `moondream` model is small vision model and can be used for simple vision tasks
+- `llama3.2-vision` : largest among tested models and comparatively slow , good at describing images and OCR
 
 ---
 ## References

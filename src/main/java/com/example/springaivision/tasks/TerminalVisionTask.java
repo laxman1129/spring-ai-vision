@@ -24,7 +24,7 @@ public class TerminalVisionTask {
         var userMessage = new UserMessage("""
                 You are expert at reading the terminal window of computer shell.
                 read the text which can be logs/instructions/code etc. as is in the image.
-                Do not provide explanation or summary. Just print the Number plate as is in the image.
+                Do not provide explanation or summary. Just print the text as is in the image.
                 """,
                 List.of(new Media(MimeTypeUtils.IMAGE_PNG, terminalImageResource)));
 
